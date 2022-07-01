@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% load vbffilters %}
+{% load static %}
+
+{% block title%} {{produto.nome}} {% endblock %}
+
+{% block conteudo %}
+
+{% include 'parciais/_pedido.html' %}
+
+{% endblock conteudo %}

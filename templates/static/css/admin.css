@@ -1,0 +1,129 @@
+/*
+ALTERAR: 2a3252 -> Cor do topo
+ALTERAR: ef5455 -> Cor dos links e cabeçalhos
+*/
+
+#branding h1,
+#branding h1 a,
+#branding h1 a:link,
+#branding h1 a:visited {
+    color: #FFFFFF;
+}
+
+#header {
+    background-image: url(../img/nuven.jpg);
+    background-image: cover;
+    
+    color: #ffffff;
+}
+
+#user-tools a:focus, #user-tools a:hover {
+    border-bottom-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+a:link, a:visited {
+    color: #4cc89f;
+}
+
+.module h2, .module caption, .inline-group h2 {
+    background: #59daae;
+    color: #FFFFFF;
+}
+
+div.breadcrumbs {
+    background: #59daae;
+    color: #FFFFFF;
+}
+
+.paginator a:link, .paginator a:visited {
+    background: #59daae !important;
+    color: #FFFFFF;
+}
+
+.paginator a:hover {
+    background: #51e8d9 !important;
+    color: #FFFFFF;
+}
+
+.button.default, input[type=submit].default, .submit-row input.default {
+    background: #59daae;
+}
+
+.button.default:active,
+input[type=submit].default:active,
+.button.default:focus,
+input[type=submit].default:focus,
+.button.default:hover,
+input[type=submit].default:hover {
+    background: #32a1d0;
+}
+
+.object-tools a:focus, .object-tools a:hover {
+    background-color: #59daae;
+}
+
+.button, input[type=submit], input[type=button], .submit-row input, a.button {
+    background: #32a1d0;
+    color: #FFFFFF;
+}
+.button:active,
+input[type=submit]:active,
+input[type=button]:active,
+.button:focus,
+input[type=submit]:focus,
+input[type=button]:focus,
+.button:hover,
+input[type=submit]:hover,
+input[type=button]:hover {
+    background-color: #59daae;
+}
+
+#changelist-filter li.selected a {
+    color: #59daae !important;
+}
+
+#changelist-filter a:focus,
+#changelist-filter a:hover,
+#changelist-filter li.selected a:focus,
+#changelist-filter li.selected a:hover {
+    color: #2a3252 !important;
+}
+
+.selector-chosen h2 {
+    background: #59daae !important;
+    color: #FFFFFF;
+}
+
+a.active.selector-chooseall:focus,
+a.active.selector-clearall:focus,
+a.active.selector-chooseall:hover,
+a.active.selector-clearall:hover {
+    color: #59daae !important;
+}
+
+.img-logo-fundo {
+    background-color: rgba(77, 158, 205, 0.519); 
+    border-radius:  20px 20px;
+}
+
+.section {
+    color: black !important;
+}
+
+.breadcrumbs a:link, .breadcrumbs a:visited {
+    color: black !important;
+}
+
+#user-tools , #user-tools a {
+    border-bottom-color: black !important;
+    color: black !important;
+}
+
+#user-tools a:focus, #user-tools a:hover {
+    background-color: #15533e30 !important;
+    border-radius: 5px;
+    border-bottom-color: #187254 !important;
+    color: #187254 !important;
+}
+
