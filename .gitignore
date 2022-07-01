@@ -126,3 +126,5 @@ dmypy.json
 # Tentando ignorar a pasta media
 .media
 media/
+
+#nada aqui
